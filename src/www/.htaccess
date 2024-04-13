@@ -1,0 +1,8 @@
+# Allow access to all resources by default
+Require all granted
+
+# Enable directory listing for test
+#  DELETE THIS!
+<IfModule mod_autoindex.c>
+	Options +Indexes
+</IfModule>
